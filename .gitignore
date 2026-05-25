@@ -1,0 +1,25 @@
+# Ignore everything by default
+*
+
+# Allow directories so git can traverse them
+!*/
+
+# Allow only HTML files
+!*.html
+!**/*.html
+
+# Explicitly allow the .gitignore itself
+!.gitignore
+
+# Explicitly ignore sensitive/binary directories and common system files
+HV COMERCIAL/
+Pruebas Psigma COMERCIAL/
+Hojas de vida/
+Pruebas Psigma/
+DPC/
+PERSONAL TICS/
+extracted_images/
+extracted_media/
+.DS_Store
+.firebaserc
+.git/
